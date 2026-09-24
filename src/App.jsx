@@ -240,13 +240,6 @@ function Sidebar() {
             <span className="external-arrow" aria-hidden="true">↗</span>
           </a>
         ))}
-        <span className="contact-link-placeholder" title="CV PDF will be added later">
-          <span className="contact-link-label">
-            <ProfileIcon type="CV" />
-            CV
-          </span>
-          <span className="external-arrow" aria-hidden="true">↗</span>
-        </span>
       </nav>
     </aside>
   );

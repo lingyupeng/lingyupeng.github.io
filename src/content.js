@@ -34,6 +34,7 @@ export const profile = {
       label: "Design Portfolio",
       href: "https://yu-s-design-portfolio-352331414026.us-west1.run.app",
     },
+    { label: "CV", href: "lingyu-peng-cv.pdf" },
   ],
 };
 
