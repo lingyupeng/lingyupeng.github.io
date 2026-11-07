@@ -218,7 +218,7 @@ export const projects = [
     year: "2026",
     date: "2026-10",
     displayDate: "2026",
-    teaserLabel: "SPACEWARD\nATLAS",
+    image: "portfolio/spaceward-atlas.png",
     type: "Artistic Visualization · Interactive Archive",
     description: "An artistic visualization that reimagines the history of human space exploration as a constellation archive. Public timeline records are transformed into a weighted relational event network and rendered as a 2D atlas and a 3D spherical star field, allowing audiences to move between a global overview, local constellation narratives, and individual historical events.",
     link: "https://player.vimeo.com/video/1208061242",
