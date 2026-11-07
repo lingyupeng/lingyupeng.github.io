@@ -149,7 +149,7 @@ export const publications = [
     venue: "Forthcoming · ACM Multimedia 2026, Interactive Art · November 2026",
     links: [
       { label: "Paper", href: "https://arxiv.org/abs/2605.11816" },
-      { label: "Video", href: "https://player.vimeo.com/video/1137178061" },
+      { label: "Video", href: "https://player.vimeo.com/video/1185853274" },
     ],
     teaser: "portfolio/ink-spiral.png",
     keywords: ["Generative AI", "Ink art", "Cross-cultural symbolism", "Video installation"],
@@ -246,7 +246,7 @@ export const projects = [
     image: "portfolio/ink-spiral.png",
     type: "Generative AI · Video Installation",
     description: "A video installation connecting Western rational contemplation with Eastern philosophical aesthetics. AI-generated ink imagery transforms The Thinker into plum, orchid, bamboo, and chrysanthemum across a continuous visual spiral.",
-    link: "https://player.vimeo.com/video/1137178061",
+    link: "https://player.vimeo.com/video/1185853274",
   },
   {
     id: "kawaii-filter",
