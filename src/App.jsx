@@ -397,14 +397,21 @@ function PortfolioPage() {
       <div className="project-grid">
         {chronologicalProjects.map((project) => (
           <a className="project" href={project.link} target="_blank" rel="noreferrer" key={project.id}>
-            <img src={assetUrl(project.image)} alt={`${project.title} project preview`} />
+            {project.image ? (
+              <img src={assetUrl(project.image)} alt={`${project.title} project preview`} />
+            ) : (
+              <div className="project-placeholder" aria-label={`${project.title} project preview`}>
+                <span>ARTISTIC VISUALIZATION</span>
+                <strong>{project.teaserLabel || project.title}</strong>
+              </div>
+            )}
             <div className="project-copy">
               <time>{project.displayDate || project.year}</time>
               <h3>{project.title}</h3>
               <p className="project-subtitle">{project.subtitle}</p>
               <p className="project-type">{project.type}</p>
               <p className="project-description">{project.description}</p>
-              <span className="project-open">View project ↗</span>
+              <span className="project-open">{project.cta || "View project"} ↗</span>
             </div>
           </a>
         ))}
@@ -499,7 +506,7 @@ function App() {
 
           <footer>
             <p>© 2026 Lingyu Peng</p>
-            <p>Last updated September 2026</p>
+            <p>Last updated November 2026</p>
           </footer>
         </main>
       </div>

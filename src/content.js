@@ -199,6 +199,32 @@ export const publications = [
 
 export const projects = [
   {
+    id: "qingming-future-society",
+    title: "Reflecting on Future Human-AI Society",
+    subtitle: "Refiguring Along the River During the Qingming Festival",
+    year: "2026",
+    date: "2026-12",
+    displayDate: "Dec 2026",
+    image: "papers/siggraph-asia.png",
+    type: "Generative AI · Interactive Artwork",
+    description: "An AI-assisted interactive system that uses Along the River During the Qingming Festival as a starting point for reflecting on possible futures of human-AI society. Audiences interpret scenes from the historical handscroll and transform them into AI-related visual refigurations of labor, commerce, prediction, communication, and human-robot relations through image and video generation.",
+    link: "https://player.vimeo.com/video/1244550061",
+    cta: "Watch video",
+  },
+  {
+    id: "spaceward-atlas",
+    title: "Spaceward Atlas",
+    subtitle: "A constellation archive of human space exploration",
+    year: "2026",
+    date: "2026-10",
+    displayDate: "2026",
+    teaserLabel: "SPACEWARD\nATLAS",
+    type: "Artistic Visualization · Interactive Archive",
+    description: "An artistic visualization that reimagines the history of human space exploration as a constellation archive. Public timeline records are transformed into a weighted relational event network and rendered as a 2D atlas and a 3D spherical star field, allowing audiences to move between a global overview, local constellation narratives, and individual historical events.",
+    link: "https://player.vimeo.com/video/1208061242",
+    cta: "Watch video",
+  },
+  {
     id: "tides",
     title: "Tides of Memory",
     subtitle: "Digital Echoes of Netizen Remembrance",
